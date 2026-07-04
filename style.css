@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #111;
+}
+
+#boton {
+    width: 180px;
+    height: 180px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: #555;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+#boton:hover {
+    transform: scale(1.05);
+}
+#boton.encendido {
+    background-color: #FFD700;
+    box-shadow:
+        0 0 20px #FFD700,
+        0 0 40px #FFD700,
+        0 0 80px #FFD700;
+}
